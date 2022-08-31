@@ -9,11 +9,11 @@
 ##### Restoring the Database:
 docker cp ./course_database.sql [mysql_container_id]:///
 
-go in MySQL container -> docker exec -it [mysql_container_id] bash
+Go in MySQL container -> docker exec -it [mysql_container_id] bash
 
-inside MySQL container verify if copy was successful -> ls /
+Inside MySQL container verify if copy was successful -> ls /
 
-create database to restore to -> mysqladmin -u [UserName] -p[Password] create [db_name]<br>
+Create database to restore to -> mysqladmin -u [UserName] -p[Password] create [db_name]<br>
 then restore -> mysql -u [Username] -p[Password] [db_name] < course_database.sql
 
 ##### To use mysql-connector you have to -> pip3 install -r requirements.txt
