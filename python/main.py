@@ -93,7 +93,8 @@ while True:
             elif sub_option == 3:
                 identifier = int(input("\nInsert student's id\n> "))
 
-                get_info_by_id(commander, identifier)
+                info = get_info_by_id(commander, identifier)
+                print(info)
                 print("Successful!")
 
             elif sub_option == 4:
