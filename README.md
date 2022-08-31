@@ -1,8 +1,8 @@
 # CRUD System made with Python and MySQL
 
-## System for studying SQL queries writing and Python integration with MySQL as well as Algorithms.
+### App for studying SQL queries writing and Python integration with MySQL as well as Algorithms.
 
-## Running this repository in your machine:  
+### Running this repository in your machine:  
 
 After cloning the repository you wanna initiate the MySQL container -> docker compose up -d
 
