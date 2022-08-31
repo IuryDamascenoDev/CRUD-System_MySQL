@@ -19,3 +19,16 @@ then restore -> mysql -u [Username] -p[Password] [db_name] < course_database.sql
 ##### To use mysql-connector you have to -> pip3 install -r requirements.txt
 
 ##### Running Python CRUD App: Inside repo's directory -> python3 ./python/main.py
+
+### Manual:
+##### First options menu:
+1.Operations -> CRUD in database
+2.Logout -> Ends app
+
+##### Second options menu:
+1.Insert new student -> Receive full student name and create new id and register it in the database.
+2.Remove student(needs id) -> Receive student's id and remove the student registry.
+3.Read student's info(needs id) -> Receive student's id and return student's information (id, first name, last name, grade1 and grade2).
+4.Update or insert grade -> Receive student's id, grade user wants to update and the update value, then update the database.
+5.Get student's id -> Receive student's first name and retrieves (id, first name and last name) of all students with that first name.
+6.Logout Logout -> Ends app
