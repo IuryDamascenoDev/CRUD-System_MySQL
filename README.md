@@ -1,6 +1,6 @@
 # CRUD System made with Python and MySQL
 
-## App for studying SQL queries writing and Python integration with MySQL as well as Algorithms.   What I've used: Python, MySQL, mysql-connector-python, Docker, VirtualEnv.
+## App for studying SQL queries writing and Python integration with MySQL as well as Algorithms.<br> What I've used: Python, MySQL, mysql-connector-python, Docker, VirtualEnv.
 
 ### Running this repository in your machine:  
 
